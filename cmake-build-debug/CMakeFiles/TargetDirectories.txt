@@ -1,0 +1,3 @@
+C:/Users/esthe/Documents/GitHub/visitante/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/esthe/Documents/GitHub/visitante/cmake-build-debug/CMakeFiles/visitante.dir
+C:/Users/esthe/Documents/GitHub/visitante/cmake-build-debug/CMakeFiles/rebuild_cache.dir
