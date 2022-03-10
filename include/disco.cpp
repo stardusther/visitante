@@ -5,6 +5,6 @@
 
 #include "disco.hpp"
 
-void aceptar(visitanteEquipo *visitante) const override {
+void disco::aceptar(visitanteEquipo *visitante) const {
     visitante->visitarDisco(this);
  }

@@ -4,3 +4,8 @@
 */
 
 #include "componenteEquipo.hpp"
+
+void componenteEquipo::aceptar(visitanteEquipo *visitante) const = 0 {
+
+}
+

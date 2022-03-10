@@ -3,6 +3,8 @@
  * @author Esther García Gallego
 */
 
+
+
 int main() {
   std::array<const Component *, 2> components = {new ConcreteComponentA, new ConcreteComponentB};
   std::cout << "The client code works with all visitors via the base Visitor interface:\n";
