@@ -5,7 +5,16 @@
 
 #include "componenteEquipo.hpp"
 
-void componenteEquipo::aceptar(visitanteEquipo *visitante) const = 0 {
-
+// Constructor
+componenteEquipo::componenteEquipo(string nom, double price) {
+    nombre = nom;
+    precio = price;
 }
 
+double componenteEquipo::getPrecio() const {
+    return precio;
+}
+
+string componenteEquipo::getNombre() const {
+    return nombre;
+}

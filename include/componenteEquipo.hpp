@@ -1,11 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/HPPTemplate.hpp to edit this template
- */
+#ifndef COMPONENTEEQUIPO_H
+#define COMPONENTEEQUIPO_H
+
+#include "componenteEquipo.hpp"
 #include "visitanteEquipo.hpp"
+#include <string>
+
+using namespace std;
 
 class componenteEquipo {
+private:
+    string nombre;
+    double precio;
 public:
-    virtual ~componenteEquipo() {}
+    virtual ~componenteEquipo() {} = default; // destructor
     virtual void aceptar(visitanteEquipo *visitante) const = 0;
+    double getPrecio() const;
+    string getNombre() const;
+protected:
+    componenteEquipo(string nom, double price);
 };
+
+#endif

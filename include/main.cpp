@@ -3,21 +3,36 @@
  * @author Esther García Gallego
 */
 
+#include <iostream>
+#include "componenteEquipo.hpp"
+#include "visitanteEquipo.hpp"
+#include "visitantePrecio.hpp"
+#include "bus.hpp"
+#include "disco.hpp"
+#include "tarjeta.hpp"
+#include "visitantePrecioDetalle.hpp"
+#include <array>
 
+using namespace std;
 
 int main() {
-  std::array<const Component *, 2> components = {new ConcreteComponentA, new ConcreteComponentB};
-  std::cout << "The client code works with all visitors via the base Visitor interface:\n";
-  ConcreteVisitor1 *visitor1 = new ConcreteVisitor1;
-  ClientCode(components, visitor1);
-  std::cout << "\n";
-  std::cout << "It allows the same client code to work with different types of visitors:\n";
-  ConcreteVisitor2 *visitor2 = new ConcreteVisitor2;
-  ClientCode(components, visitor2);
+  array<const componenteEquipo *, 2> components = {new bus, new disco, new tarjeta};
 
-  for (const Component *comp : components) {
+  visitantePrecio *visitor1 = new visitantePrecio;
+  cout << "Total: " << visitor1->getTotal() << "€\n";
+
+
+  visitantePrecioDetalle *visitor2 = new visitantePrecioDetalle;
+  visitor2->visitarBus(b);
+  visitor2->visitarDisco(d);
+  visitor2->visitarTarjeta(t);
+
+  // Eliminamos los componentes del equipo creados
+  for (const componenteEquipo *comp : components) {
     delete comp;
   }
+
+  // Eliminamos los visitantes
   delete visitor1;
   delete visitor2;
 

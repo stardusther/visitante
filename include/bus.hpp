@@ -1,10 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/HPPTemplate.hpp to edit this template
- */
+#ifndef BUS_H
+#define BUS_H
 #include "componenteEquipo.hpp"
 
 class bus : public componenteEquipo {
 public:
+    bus(string nom, double price);
     void aceptar(visitanteEquipo *visitante) const override;
 };
+
+#endif

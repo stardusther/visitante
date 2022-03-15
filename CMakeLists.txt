@@ -20,6 +20,5 @@ add_executable(visitante
         include/equipo.cpp
         include/main.cpp
         include/tarjeta.cpp
-        include/visitanteEquipo.cpp
         include/visitantePrecio.cpp
-        include/visitantePrecioDetalle.cpp)
+        include/visitantePrecioDetalle.cpp include/cliente.h)

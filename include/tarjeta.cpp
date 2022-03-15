@@ -5,6 +5,10 @@
 
 #include "tarjeta.hpp"
 
-void aceptar(visitanteEquipo *visitante) const override {
-    visitante->visitarTarjeta(this);
+//Constructor
+tarjeta::tarjeta(string nom, double price) : componenteEquipo(nom, price) {}
+
+// Aceptar visitante
+void tarjeta::aceptar(visitanteEquipo *visitante) const {
+    visitante->visitarTarjeta(*this);
 }

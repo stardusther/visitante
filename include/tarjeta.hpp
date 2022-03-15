@@ -1,7 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/HPPTemplate.hpp to edit this template
- */
+#ifndef TARJETA_H
+#define TARJETA_H
 
 /**
  * @author Sandra Reinoso
@@ -9,10 +7,12 @@
 */
 
 #include "componenteEquipo.hpp"
-#include "visitanteEquipo.hpp"
 
+class tarjeta : public componenteEquipo {
+public:
+    tarjeta(string nom, double price);
 
-class tarjeta : public componenteEquipo{
-    public:
-        void aceptar(visitanteEquipo *visitante) const override;
+    void aceptar(visitanteEquipo *visitante) const override;
 };
+
+#endif

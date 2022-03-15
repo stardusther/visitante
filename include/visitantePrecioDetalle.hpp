@@ -1,15 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/HPPTemplate.hpp to edit this template
- */
+#ifndef VISITANTEPRECIODETALLE_H
+#define VISITANTEPRECIODETALLE_H
 
 #include "visitanteEquipo.hpp"
+#include "cliente.h"
 
 class visitantePrecioDetalle : public visitanteEquipo {
  public:
-  void visitarBus(const bus *element) const override;
+  void visitarBus(const bus *element) const;
 
-  void visitarDisco(const disco *element) const override;
+  void visitarDisco(const disco *element) const;
 
-  void visitarTarjeta(const tarjeta *element) const override;
+  void visitarTarjeta(const tarjeta *element) const;
 };
+
+#endif

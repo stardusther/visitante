@@ -1,12 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/HPPTemplate.hpp to edit this template
- */
+#ifndef DISCO_H
+#define DISCO_H
+
 #include "componenteEquipo.hpp"
-#include "visitanteEquipo.hpp"
 
-class disco : public componenteEquipo{
-    public:
-        void aceptar(visitanteEquipo *visitante) const override;
+/**
+ * @author Sandra Reinoso
+ * @author Esther Garc?a Gallego
+*/
 
+class disco : public componenteEquipo {
+public:
+    disco(string nom, double price);
+
+    void aceptar(visitanteEquipo *visitante) const override;
 };
+
+#endif
