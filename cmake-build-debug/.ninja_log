@@ -1,0 +1,5 @@
+# ninja log v5
+3	398	6691473560858506	build.ninja	df448d895c56b1e7
+1	446	6691473560858506	build.ninja	df448d895c56b1e7
+24	1003	6691482996254691	CMakeFiles/visitante.dir/src/ComponenteEquipo.cpp.obj	9d788271c1c4e7fb
+32	1133	6691482997504678	CMakeFiles/visitante.dir/src/Equipo.cpp.obj	ab581028361af43b

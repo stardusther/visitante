@@ -3,20 +3,20 @@ project(visitante)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(include)
+include_directories(src)
 
 add_executable(visitante
-        include/componenteEquipo.h
-        include/disco.h
-        include/equipo.h
-        include/tarjeta.h
-        include/visitanteEquipo.h
-        include/visitantePrecio.h
-        include/visitantePrecioDetalle.h
-        include/componenteEquipo.cpp
-        include/disco.cpp
-        include/equipo.cpp
-        include/main.cpp
-        include/tarjeta.cpp
-        include/visitantePrecio.cpp
-        include/visitantePrecioDetalle.cpp include/cliente.h include/bus.cpp include/bus.h)
+        include/ComponenteEquipo.h
+        include/Disco.h
+        include/Equipo.h
+        include/Tarjeta.h
+        include/VisitanteEquipo.h
+        include/VisitantePrecio.h
+        include/VisitantePrecioDetalle.h
+        src/ComponenteEquipo.cpp
+        src/Disco.cpp
+        src/Equipo.cpp
+        src/main.cpp
+        src/Tarjeta.cpp
+        src/VisitantePrecio.cpp
+        src/VisitantePrecioDetalle.cpp include/Cliente.h src/Bus.cpp include/Bus.h)

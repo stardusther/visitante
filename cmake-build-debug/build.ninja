@@ -60,68 +60,61 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_visitante: phony || CMakeFiles/visitante.dir
 
-build CMakeFiles/visitante.dir/include/bus.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/bus.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\bus.cpp.obj.d
+build CMakeFiles/visitante.dir/src/ComponenteEquipo.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/ComponenteEquipo.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\ComponenteEquipo.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/componenteEquipo.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\componenteEquipo.cpp.obj.d
+build CMakeFiles/visitante.dir/src/Disco.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/Disco.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\Disco.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/disco.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/disco.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\disco.cpp.obj.d
+build CMakeFiles/visitante.dir/src/Equipo.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/Equipo.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\Equipo.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/equipo.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/equipo.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\equipo.cpp.obj.d
+build CMakeFiles/visitante.dir/src/main.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/main.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/main.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/main.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\main.cpp.obj.d
+build CMakeFiles/visitante.dir/src/Tarjeta.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/Tarjeta.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\Tarjeta.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/tarjeta.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/tarjeta.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\tarjeta.cpp.obj.d
+build CMakeFiles/visitante.dir/src/VisitantePrecio.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/VisitantePrecio.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\VisitantePrecio.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/visitanteEquipo.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/visitanteEquipo.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\visitanteEquipo.cpp.obj.d
+build CMakeFiles/visitante.dir/src/VisitantePrecioDetalle.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/VisitantePrecioDetalle.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\VisitantePrecioDetalle.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
-build CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/visitantePrecio.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\visitantePrecio.cpp.obj.d
+build CMakeFiles/visitante.dir/src/Bus.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/src/Bus.cpp || cmake_object_order_depends_target_visitante
+  DEP_FILE = CMakeFiles\visitante.dir\src\Bus.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
+  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/src
   OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
-
-build CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: CXX_COMPILER__visitante_Debug C$:/Users/esthe/Documents/GitHub/visitante/include/visitantePrecioDetalle.cpp || cmake_object_order_depends_target_visitante
-  DEP_FILE = CMakeFiles\visitante.dir\include\visitantePrecioDetalle.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/esthe/Documents/GitHub/visitante/include
-  OBJECT_DIR = CMakeFiles\visitante.dir
-  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\include
+  OBJECT_FILE_DIR = CMakeFiles\visitante.dir\src
 
 
 # =============================================================================
@@ -131,7 +124,7 @@ build CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable visitante.exe
 
-build visitante.exe: CXX_EXECUTABLE_LINKER__visitante_Debug CMakeFiles/visitante.dir/include/bus.cpp.obj CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj CMakeFiles/visitante.dir/include/disco.cpp.obj CMakeFiles/visitante.dir/include/equipo.cpp.obj CMakeFiles/visitante.dir/include/main.cpp.obj CMakeFiles/visitante.dir/include/tarjeta.cpp.obj CMakeFiles/visitante.dir/include/visitanteEquipo.cpp.obj CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj
+build visitante.exe: CXX_EXECUTABLE_LINKER__visitante_Debug CMakeFiles/visitante.dir/src/ComponenteEquipo.cpp.obj CMakeFiles/visitante.dir/src/Disco.cpp.obj CMakeFiles/visitante.dir/src/Equipo.cpp.obj CMakeFiles/visitante.dir/src/main.cpp.obj CMakeFiles/visitante.dir/src/Tarjeta.cpp.obj CMakeFiles/visitante.dir/src/VisitantePrecio.cpp.obj CMakeFiles/visitante.dir/src/VisitantePrecioDetalle.cpp.obj CMakeFiles/visitante.dir/src/Bus.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\visitante.dir
