@@ -6,13 +6,12 @@
  * @author Esther Garc�a Gallego
 */
 
-#include "componenteEquipo.hpp"
+#include "componenteEquipo.h"
 
 class tarjeta : public componenteEquipo {
 public:
     tarjeta(string nom, double price);
-
-    void aceptar(visitanteEquipo *visitante) const override;
+    void aceptar(const visitanteEquipo *visitante) const override;
 };
 
 #endif

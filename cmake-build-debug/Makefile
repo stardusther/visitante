@@ -224,6 +224,30 @@ include/equipo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\visitante.dir\build.make CMakeFiles/visitante.dir/include/equipo.cpp.s
 .PHONY : include/equipo.cpp.s
 
+include/hola.obj: include/hola.cpp.obj
+.PHONY : include/hola.obj
+
+# target to build an object file
+include/hola.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\visitante.dir\build.make CMakeFiles/visitante.dir/include/hola.cpp.obj
+.PHONY : include/hola.cpp.obj
+
+include/hola.i: include/hola.cpp.i
+.PHONY : include/hola.i
+
+# target to preprocess a source file
+include/hola.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\visitante.dir\build.make CMakeFiles/visitante.dir/include/hola.cpp.i
+.PHONY : include/hola.cpp.i
+
+include/hola.s: include/hola.cpp.s
+.PHONY : include/hola.s
+
+# target to generate assembly for a file
+include/hola.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\visitante.dir\build.make CMakeFiles/visitante.dir/include/hola.cpp.s
+.PHONY : include/hola.cpp.s
+
 include/main.obj: include/main.cpp.obj
 .PHONY : include/main.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... include/equipo.obj
 	@echo ... include/equipo.i
 	@echo ... include/equipo.s
+	@echo ... include/hola.obj
+	@echo ... include/hola.i
+	@echo ... include/hola.s
 	@echo ... include/main.obj
 	@echo ... include/main.i
 	@echo ... include/main.s

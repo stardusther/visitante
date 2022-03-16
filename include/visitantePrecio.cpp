@@ -3,10 +3,11 @@
  * @author Esther García Gallego
 */
 
-#include "visitantePrecio.hpp"
-#include "bus.hpp"
-#include "disco.hpp"
-#include "tarjeta.hpp"
+#include "visitantePrecio.h"
+#include "bus.h"
+#include "disco.h"
+#include "tarjeta.h"
+
 
 // Le quitamos el descuento a cada componente según el tipo de cliente
 void visitantePrecio::visitarBus(const bus *element) {

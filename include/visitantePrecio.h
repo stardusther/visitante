@@ -1,7 +1,7 @@
 #ifndef VISITANTEPRECIO_H
 #define VISITANTEPRECIO_H
 
-#include "visitanteEquipo.hpp"
+#include "visitanteEquipo.h"
 #include "cliente.h"
 
 class visitantePrecio : public visitanteEquipo {

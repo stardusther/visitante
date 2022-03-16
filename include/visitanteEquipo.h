@@ -1,6 +1,8 @@
-#include "bus.hpp"
-#include "tarjeta.hpp"
-#include "disco.hpp"
+#include "tarjeta.h"
+#include "disco.h"
+#include "bus.h"
+
+class bus;
 
 class visitanteEquipo {
   public:

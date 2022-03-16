@@ -4,13 +4,13 @@
 */
 
 #include <iostream>
-#include "componenteEquipo.hpp"
-#include "visitanteEquipo.hpp"
-#include "visitantePrecio.hpp"
-#include "bus.hpp"
-#include "disco.hpp"
-#include "tarjeta.hpp"
-#include "visitantePrecioDetalle.hpp"
+#include "componenteEquipo.h"
+#include "visitanteEquipo.h"
+#include "visitantePrecio.h"
+#include "bus.h"
+#include "disco.h"
+#include "tarjeta.h"
+#include "visitantePrecioDetalle.h"
 #include <array>
 
 using namespace std;

@@ -87,7 +87,7 @@
 		<Unit filename="D:/Documentos/GitHub/visitante/include/bus.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/bus.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/bus.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/cliente.h">
@@ -96,19 +96,25 @@
 		<Unit filename="D:/Documentos/GitHub/visitante/include/componenteEquipo.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/componenteEquipo.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/componenteEquipo.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/disco.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/disco.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/disco.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/equipo.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/equipo.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/equipo.h">
+			<Option target="visitante"/>
+		</Unit>
+		<Unit filename="D:/Documentos/GitHub/visitante/include/hola.cpp">
+			<Option target="visitante"/>
+		</Unit>
+		<Unit filename="D:/Documentos/GitHub/visitante/include/hola.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/main.cpp">
@@ -117,22 +123,22 @@
 		<Unit filename="D:/Documentos/GitHub/visitante/include/tarjeta.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/tarjeta.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/tarjeta.h">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/visitanteEquipo.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/visitanteEquipo.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecio.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecio.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecio.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecioDetalle.cpp">
 			<Option target="visitante"/>
 		</Unit>
-		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecioDetalle.hpp">
+		<Unit filename="D:/Documentos/GitHub/visitante/include/visitantePrecioDetalle.h">
 			<Option target="visitante"/>
 		</Unit>
 		<Unit filename="D:/Documentos/GitHub/visitante/CMakeLists.txt">

@@ -69,14 +69,15 @@
 			},
 			"sourceIndexes" : 
 			[
+				7,
 				8,
 				9,
 				10,
 				11,
 				12,
 				13,
-				14,
-				15
+				15,
+				17
 			]
 		}
 	],
@@ -120,22 +121,24 @@
 				4,
 				5,
 				6,
-				7,
-				16
+				14,
+				16,
+				18
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
+				7,
 				8,
 				9,
 				10,
 				11,
 				12,
 				13,
-				14,
-				15
+				15,
+				17
 			]
 		}
 	],
@@ -143,49 +146,38 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "include/bus.hpp",
+			"path" : "include/componenteEquipo.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/componenteEquipo.hpp",
+			"path" : "include/disco.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/disco.hpp",
+			"path" : "include/equipo.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/equipo.hpp",
+			"path" : "include/tarjeta.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/tarjeta.hpp",
+			"path" : "include/visitanteEquipo.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/visitanteEquipo.hpp",
+			"path" : "include/visitantePrecio.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/visitantePrecio.hpp",
+			"path" : "include/visitantePrecioDetalle.h",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/visitantePrecioDetalle.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "include/bus.cpp",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -232,6 +224,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/cliente.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/hola.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/hola.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/bus.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bus.h",
 			"sourceGroupIndex" : 0
 		}
 	],

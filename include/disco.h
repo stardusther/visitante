@@ -1,7 +1,7 @@
 #ifndef DISCO_H
 #define DISCO_H
 
-#include "componenteEquipo.hpp"
+#include "componenteEquipo.h"
 
 /**
  * @author Sandra Reinoso
@@ -11,8 +11,7 @@
 class disco : public componenteEquipo {
 public:
     disco(string nom, double price);
-
-    void aceptar(visitanteEquipo *visitante) const override;
+    void aceptar(const visitanteEquipo *visitante) const override;
 };
 
 #endif

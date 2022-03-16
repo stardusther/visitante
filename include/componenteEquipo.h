@@ -1,8 +1,8 @@
 #ifndef COMPONENTEEQUIPO_H
 #define COMPONENTEEQUIPO_H
 
-#include "componenteEquipo.hpp"
-#include "visitanteEquipo.hpp"
+#include "componenteEquipo.h"
+#include "visitanteEquipo.h"
 #include <string>
 
 using namespace std;
@@ -13,7 +13,7 @@ private:
     double precio;
 public:
     virtual ~componenteEquipo() {} = default; // destructor
-    virtual void aceptar(visitanteEquipo *visitante) const = 0;
+    virtual void aceptar(const visitanteEquipo *visitante) const = 0;
     double getPrecio() const;
     string getNombre() const;
 protected:

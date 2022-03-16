@@ -1,14 +1,7 @@
-/**
- * @author Sandra Reinoso
- * @author Esther García Gallego
-*/
-#include "bus.hpp"
+#include "bus.h"
 
-// Constructor
-bus::bus(string nom, double price) : componenteEquipo(nom, price) {}
+bus::bus(const string &nom, double price) : componenteEquipo(nom, price) {}
 
-// Aceptar visitante
-void bus::aceptar(visitanteEquipo *visitante) const {
-    visitante->visitarBus(*this);
+void bus::aceptar(const visitanteEquipo *visitante) const {
+    visitante->visitarBus(this);
 }
-

@@ -3,7 +3,7 @@
  * @author Esther García Gallego
 */
 
-#include "componenteEquipo.hpp"
+#include "componenteEquipo.h"
 
 // Constructor
 componenteEquipo::componenteEquipo(string nom, double price) {
@@ -18,3 +18,5 @@ double componenteEquipo::getPrecio() const {
 string componenteEquipo::getNombre() const {
     return nombre;
 }
+
+

@@ -3,12 +3,12 @@
  * @author Esther Garc�a Gallego
 */
 
-#include "disco.hpp"
+#include "disco.h"
 
 // Constructor
 disco::disco(string nom, double price) : componenteEquipo(nom, price) {}
 
 // Aceptar visitante
-void disco::aceptar(visitanteEquipo *visitante) const {
+void disco::aceptar(const visitanteEquipo *visitante) const {
     visitante->visitarDisco(this);
  }

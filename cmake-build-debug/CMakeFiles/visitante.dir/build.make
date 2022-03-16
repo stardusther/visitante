@@ -68,26 +68,11 @@ include CMakeFiles/visitante.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/visitante.dir/flags.make
 
-CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/flags.make
-CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
-CMakeFiles/visitante.dir/include/bus.cpp.obj: ../include/bus.cpp
-CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/visitante.dir/include/bus.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/bus.cpp.obj -MF CMakeFiles\visitante.dir\include\bus.cpp.obj.d -o CMakeFiles\visitante.dir\include\bus.cpp.obj -c D:\Documentos\GitHub\visitante\include\bus.cpp
-
-CMakeFiles/visitante.dir/include/bus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/visitante.dir/include/bus.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documentos\GitHub\visitante\include\bus.cpp > CMakeFiles\visitante.dir\include\bus.cpp.i
-
-CMakeFiles/visitante.dir/include/bus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/visitante.dir/include/bus.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documentos\GitHub\visitante\include\bus.cpp -o CMakeFiles\visitante.dir\include\bus.cpp.s
-
 CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj: CMakeFiles/visitante.dir/flags.make
 CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj: ../include/componenteEquipo.cpp
 CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj -MF CMakeFiles\visitante.dir\include\componenteEquipo.cpp.obj.d -o CMakeFiles\visitante.dir\include\componenteEquipo.cpp.obj -c D:\Documentos\GitHub\visitante\include\componenteEquipo.cpp
 
 CMakeFiles/visitante.dir/include/componenteEquipo.cpp.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/visitante.dir/include/disco.cpp.obj: CMakeFiles/visitante.dir/flags.m
 CMakeFiles/visitante.dir/include/disco.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/disco.cpp.obj: ../include/disco.cpp
 CMakeFiles/visitante.dir/include/disco.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/visitante.dir/include/disco.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/visitante.dir/include/disco.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/disco.cpp.obj -MF CMakeFiles\visitante.dir\include\disco.cpp.obj.d -o CMakeFiles\visitante.dir\include\disco.cpp.obj -c D:\Documentos\GitHub\visitante\include\disco.cpp
 
 CMakeFiles/visitante.dir/include/disco.cpp.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/visitante.dir/include/equipo.cpp.obj: CMakeFiles/visitante.dir/flags.
 CMakeFiles/visitante.dir/include/equipo.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/equipo.cpp.obj: ../include/equipo.cpp
 CMakeFiles/visitante.dir/include/equipo.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/visitante.dir/include/equipo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/visitante.dir/include/equipo.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/equipo.cpp.obj -MF CMakeFiles\visitante.dir\include\equipo.cpp.obj.d -o CMakeFiles\visitante.dir\include\equipo.cpp.obj -c D:\Documentos\GitHub\visitante\include\equipo.cpp
 
 CMakeFiles/visitante.dir/include/equipo.cpp.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/visitante.dir/include/main.cpp.obj: CMakeFiles/visitante.dir/flags.ma
 CMakeFiles/visitante.dir/include/main.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/main.cpp.obj: ../include/main.cpp
 CMakeFiles/visitante.dir/include/main.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/visitante.dir/include/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/visitante.dir/include/main.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/main.cpp.obj -MF CMakeFiles\visitante.dir\include\main.cpp.obj.d -o CMakeFiles\visitante.dir\include\main.cpp.obj -c D:\Documentos\GitHub\visitante\include\main.cpp
 
 CMakeFiles/visitante.dir/include/main.cpp.i: cmake_force
@@ -147,7 +132,7 @@ CMakeFiles/visitante.dir/include/tarjeta.cpp.obj: CMakeFiles/visitante.dir/flags
 CMakeFiles/visitante.dir/include/tarjeta.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/tarjeta.cpp.obj: ../include/tarjeta.cpp
 CMakeFiles/visitante.dir/include/tarjeta.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/visitante.dir/include/tarjeta.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/visitante.dir/include/tarjeta.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/tarjeta.cpp.obj -MF CMakeFiles\visitante.dir\include\tarjeta.cpp.obj.d -o CMakeFiles\visitante.dir\include\tarjeta.cpp.obj -c D:\Documentos\GitHub\visitante\include\tarjeta.cpp
 
 CMakeFiles/visitante.dir/include/tarjeta.cpp.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj: CMakeFiles/visitante.d
 CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj: ../include/visitantePrecio.cpp
 CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj -MF CMakeFiles\visitante.dir\include\visitantePrecio.cpp.obj.d -o CMakeFiles\visitante.dir\include\visitantePrecio.cpp.obj -c D:\Documentos\GitHub\visitante\include\visitantePrecio.cpp
 
 CMakeFiles/visitante.dir/include/visitantePrecio.cpp.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: CMakeFiles/visi
 CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
 CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: ../include/visitantePrecioDetalle.cpp
 CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj -MF CMakeFiles\visitante.dir\include\visitantePrecioDetalle.cpp.obj.d -o CMakeFiles\visitante.dir\include\visitantePrecioDetalle.cpp.obj -c D:\Documentos\GitHub\visitante\include\visitantePrecioDetalle.cpp
 
 CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.i: cmake_force
@@ -188,21 +173,51 @@ CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documentos\GitHub\visitante\include\visitantePrecioDetalle.cpp -o CMakeFiles\visitante.dir\include\visitantePrecioDetalle.cpp.s
 
+CMakeFiles/visitante.dir/include/hola.cpp.obj: CMakeFiles/visitante.dir/flags.make
+CMakeFiles/visitante.dir/include/hola.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
+CMakeFiles/visitante.dir/include/hola.cpp.obj: ../include/hola.cpp
+CMakeFiles/visitante.dir/include/hola.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/visitante.dir/include/hola.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/hola.cpp.obj -MF CMakeFiles\visitante.dir\include\hola.cpp.obj.d -o CMakeFiles\visitante.dir\include\hola.cpp.obj -c D:\Documentos\GitHub\visitante\include\hola.cpp
+
+CMakeFiles/visitante.dir/include/hola.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/visitante.dir/include/hola.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documentos\GitHub\visitante\include\hola.cpp > CMakeFiles\visitante.dir\include\hola.cpp.i
+
+CMakeFiles/visitante.dir/include/hola.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/visitante.dir/include/hola.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documentos\GitHub\visitante\include\hola.cpp -o CMakeFiles\visitante.dir\include\hola.cpp.s
+
+CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/flags.make
+CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/includes_CXX.rsp
+CMakeFiles/visitante.dir/include/bus.cpp.obj: ../include/bus.cpp
+CMakeFiles/visitante.dir/include/bus.cpp.obj: CMakeFiles/visitante.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/visitante.dir/include/bus.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visitante.dir/include/bus.cpp.obj -MF CMakeFiles\visitante.dir\include\bus.cpp.obj.d -o CMakeFiles\visitante.dir\include\bus.cpp.obj -c D:\Documentos\GitHub\visitante\include\bus.cpp
+
+CMakeFiles/visitante.dir/include/bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/visitante.dir/include/bus.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documentos\GitHub\visitante\include\bus.cpp > CMakeFiles\visitante.dir\include\bus.cpp.i
+
+CMakeFiles/visitante.dir/include/bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/visitante.dir/include/bus.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documentos\GitHub\visitante\include\bus.cpp -o CMakeFiles\visitante.dir\include\bus.cpp.s
+
 # Object files for target visitante
 visitante_OBJECTS = \
-"CMakeFiles/visitante.dir/include/bus.cpp.obj" \
 "CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj" \
 "CMakeFiles/visitante.dir/include/disco.cpp.obj" \
 "CMakeFiles/visitante.dir/include/equipo.cpp.obj" \
 "CMakeFiles/visitante.dir/include/main.cpp.obj" \
 "CMakeFiles/visitante.dir/include/tarjeta.cpp.obj" \
 "CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj" \
-"CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj"
+"CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj" \
+"CMakeFiles/visitante.dir/include/hola.cpp.obj" \
+"CMakeFiles/visitante.dir/include/bus.cpp.obj"
 
 # External object files for target visitante
 visitante_EXTERNAL_OBJECTS =
 
-visitante.exe: CMakeFiles/visitante.dir/include/bus.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/disco.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/equipo.cpp.obj
@@ -210,11 +225,13 @@ visitante.exe: CMakeFiles/visitante.dir/include/main.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/tarjeta.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/include/visitantePrecioDetalle.cpp.obj
+visitante.exe: CMakeFiles/visitante.dir/include/hola.cpp.obj
+visitante.exe: CMakeFiles/visitante.dir/include/bus.cpp.obj
 visitante.exe: CMakeFiles/visitante.dir/build.make
 visitante.exe: CMakeFiles/visitante.dir/linklibs.rsp
 visitante.exe: CMakeFiles/visitante.dir/objects1.rsp
 visitante.exe: CMakeFiles/visitante.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable visitante.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documentos\GitHub\visitante\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable visitante.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\visitante.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

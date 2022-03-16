@@ -4,10 +4,9 @@
 */
 #include <iostream>
 
-#include "visitantePrecioDetalle.hpp"
-#include "bus.hpp"
-#include "disco.hpp"
-#include "tarjeta.hpp"
+#include "visitantePrecioDetalle.h"
+#include "disco.h"
+#include "tarjeta.h"
 
 void visitantePrecioDetalle::visitarBus(const bus *element) const {
     cout << "Bus: " << element->getNombre() << " --> " << element->getPrecio() << "€\n";

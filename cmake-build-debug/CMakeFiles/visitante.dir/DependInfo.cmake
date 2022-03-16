@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Documentos/GitHub/visitante/include/componenteEquipo.cpp" "CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/componenteEquipo.cpp.obj.d"
   "D:/Documentos/GitHub/visitante/include/disco.cpp" "CMakeFiles/visitante.dir/include/disco.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/disco.cpp.obj.d"
   "D:/Documentos/GitHub/visitante/include/equipo.cpp" "CMakeFiles/visitante.dir/include/equipo.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/equipo.cpp.obj.d"
+  "D:/Documentos/GitHub/visitante/include/hola.cpp" "CMakeFiles/visitante.dir/include/hola.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/hola.cpp.obj.d"
   "D:/Documentos/GitHub/visitante/include/main.cpp" "CMakeFiles/visitante.dir/include/main.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/main.cpp.obj.d"
   "D:/Documentos/GitHub/visitante/include/tarjeta.cpp" "CMakeFiles/visitante.dir/include/tarjeta.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/tarjeta.cpp.obj.d"
   "D:/Documentos/GitHub/visitante/include/visitantePrecio.cpp" "CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj" "gcc" "CMakeFiles/visitante.dir/include/visitantePrecio.cpp.obj.d"
